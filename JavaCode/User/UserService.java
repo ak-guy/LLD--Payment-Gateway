@@ -3,7 +3,7 @@ package User;
 import java.util.*;
 
 public class UserService {
-    static List<User> userList;
+    static List<User> userList = new ArrayList<>();
 
     public UserDO addUser(UserDO userDo) {
         // doing some validation and creating User object

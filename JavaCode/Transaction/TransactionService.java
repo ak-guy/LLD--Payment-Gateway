@@ -6,7 +6,7 @@ import Instrument.InstrumentController;
 import Instrument.InstrumentDO;
 
 public class TransactionService {
-    public static Map<Integer, List<Transaction>> userVsTransaction;
+    public static Map<Integer, List<Transaction>> userVsTransaction = new HashMap<>();
     InstrumentController instrumentController;
     Processor processor;
 
