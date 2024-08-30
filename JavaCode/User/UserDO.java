@@ -1,7 +1,7 @@
 package User;
 
 /*
- * This UserDO will be POJO of client request which can be mapped to User class
+ * This UserDO will be POJO/DTO of client request which can be mapped to User class
  */
 
 public class UserDO {
